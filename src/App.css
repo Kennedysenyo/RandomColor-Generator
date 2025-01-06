@@ -8,7 +8,19 @@
 .container {
    display: flex;
    gap: 10px;
-   justify-content: center;
+  flex-direction: column;
+  margin-block: 30px;
+}
+
+.container > div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.container > button {
+  max-width: 250px;
+  margin: auto
 }
 
 h1 {
